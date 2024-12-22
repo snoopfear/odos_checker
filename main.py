@@ -65,7 +65,7 @@ def main():
             proxy_index += 1
 
         # Небольшая задержка между запросами
-        time.sleep(random.uniform(1, 3))
+        time.sleep(random.uniform(1, 1))
 
     # Сохранение результатов в файл (только кошельки с балансом > 0)
     with open('results.txt', 'w') as file:
